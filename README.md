@@ -4,7 +4,7 @@ This REST API in Go is used for a data analysis project on Romanian companies. T
 
 ## Create database
 
-CREATE TABLE romanian_companies_financial_data_serial(
+`CREATE TABLE romanian_companies_financial_data_serial(
 	id SERIAL PRIMARY KEY,
 	denumire VARCHAR(500),
 	cui VARCHAR(500),
@@ -16,6 +16,6 @@ CREATE TABLE romanian_companies_financial_data_serial(
 	profit_net VARCHAR(500),
 	cifra_de_afaceri_neta VARCHAR(500),
 	stocuri VARCHAR(500)
-)
+)`
 
 ** Important: ** The `id` field should be created as `SERIAL`, because the `POST` request uses the incremental id automatically.
