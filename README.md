@@ -20,4 +20,4 @@ CREATE TABLE romanian_companies_financial_data_serial(
 )
 ```
 
-** Important: ** The `id` field should be created as `SERIAL`, because the `POST` request uses the incremental id automatically.
+**Important:** The `id` field should be created as `SERIAL`, because the `POST` request uses it to increment the `id` automatically.
