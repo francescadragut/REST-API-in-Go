@@ -1,6 +1,6 @@
 # REST-API-in-Go
 
-This REST API in Go is used for a data analysis project on Romanian companies. The database is in PostgreSQL. Since the data is protected, check the next section on how to create the database in order to match the structure of the original database.
+This REST API in Go is used for a data analysis project on Romanian companies. The database is in PostgreSQL. Since the data is protected, check the next section on how to create the database in order to match the structure of the original database and then populate the database.
 
 ## Create database
 
